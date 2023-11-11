@@ -1,0 +1,24 @@
+:root {
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+  
+body {
+    font-size: 15px;
+    font-family: 'Outfit';
+    font-weight:  400, 700;
+    background-color: var(--grayish-blue);
+}
+
+.container {
+    background-color: white;
+}
+
+footer {
+    font-size: 11px; text-align: center;
+}
+
+footer a {
+    color: hsl(228, 45%, 44%)
+}
